@@ -1,1 +1,1 @@
-![Micro_Interactions](demo/dark.gif)
+![Micro_Interactions](Demo/dark.gif)
