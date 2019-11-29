@@ -1,0 +1,57 @@
+#align
+{
+  position: relative;
+  margin-top: 300px;
+  left: 40%;
+}
+
+
+input
+{
+  width: 20px;
+  padding: 10px;
+  height: 20px;
+  border-radius: 100px;
+  margin-left: 36px;
+  display: block;
+  transition: 0.5s;
+  font-size: 0.0em;
+  border: 2px solid #400080;
+
+}
+
+input:focus
+{
+transition: 0.7s;
+font-size: 0.8em;
+padding-left: 40px;
+width: 200px;
+text-decoration: none;
+cursor: grab;
+font-weight: bold;
+font-family: sans-serif;
+
+}
+
+#icon {
+
+  padding: 5px;
+  border-radius: 50px;
+     position: absolute;
+     display:block;
+     margin-top: 8px;
+     margin-left: 45px;
+     color: #400080;
+
+      }
+
+
+input:hover
+{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  padding-left: 40px;
+  width: 200px;
+  transition: 0.3s;
+}
