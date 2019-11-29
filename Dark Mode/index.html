@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Cosmogic
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body >
+
+<div class="background">
+
+<div id="rect" onclick="toggle()"></div>
+<div id="circle" onclick="toggle()"></div>
+
+</div>
+
+<div class="align" >
+  <p id="h1x">Hello World</p>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+  function toggle(){
+    var nav = document.getElementById('circle');
+    nav.classList.toggle('ch');
+    var navx = document.getElementById('h1x');
+    navx.classList.toggle('dark');
+  }
+
+
+
+</script>
+
+</body>
+</html>
